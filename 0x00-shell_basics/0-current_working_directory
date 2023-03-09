@@ -1,0 +1,3 @@
+#!/bin/bash
+
+read -r '/root/alx-system_engineering-devops'
