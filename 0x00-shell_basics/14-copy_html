@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Change to the parent directory
+cd ..
+
+# Copy all the HTML files from the current directory to the parent directory
+for file in $(find ./current_working_directory -maxdepth 1 -type f -name "*.html"); do
+    if [ ! -f "$(basename $file)" ] || [ "$file" -nt "$(basename $file)" ]; then
+        cp -u "$file" .
+    fi
+done
