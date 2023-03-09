@@ -1,2 +1,2 @@
 #!/bin/bash
-read -p "/root/alx-system_engineering-devops/0x00-shell_basics"
+read -p "root@e0115519417c:/alx-system_engineering-devops/0x00-shell_basics"
