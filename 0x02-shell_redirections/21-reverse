@@ -1,2 +1,2 @@
 #!/bin/bash
-<some-command> | rev
+rev
