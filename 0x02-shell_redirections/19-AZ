@@ -1,2 +1,2 @@
 #!/bin/bash
-<some-command> | tr 'Ac' 'Ze'
+tr 'Ac' 'Ze' < input > output
