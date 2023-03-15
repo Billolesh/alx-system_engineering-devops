@@ -1,2 +1,2 @@
 #!/bin/bash
-<some-command> | tr -d 'cC'
+tr -d 'cC'
